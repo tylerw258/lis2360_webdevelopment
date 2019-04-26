@@ -1,0 +1,114 @@
+
+
+
+body{
+        margin: 0;
+        padding: 0;
+        color: #333;
+  font-family: 'Advent Pro';font-size: 22px;
+}
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+h1 {
+  padding: 20px 0;
+}
+h4 {
+  padding: 20px 0;
+  font-weight: bold;
+}
+table {
+	border: solid #6297F9 1px;
+	border-collapse:collapse;
+}
+td {
+	padding: 6px;
+	border: solid #6297F9 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #6297F9;
+	text-align: center;
+	padding: 6px;
+	border: solid #6297F9 1px;
+}
+a:link {
+	color: #6297F9;
+}
+a:visited {
+	color: #6297F9;
+}
+a:hover {
+	color: #4578DF;
+	text-decoration: none;
+}
+
+#Overview{
+        padding: 40px 0 60px 0;	
+        background-color: #333333;
+        color: #fff;
+       
+}
+#Video{
+        padding: 40px 0 60px 0;	
+        background-color: #ffffff;
+        color: #333333;
+        
+}
+#Facts{
+        padding: 40px 0 60px 0;	
+        background-size: cover;
+        background: url(images2/poseidonimg-2.jpg) no-repeat center top fixed;
+        color: #fff;
+        
+}
+#Footer{
+        background-color: #333333;
+        color: #fff;
+        padding: 20px 0;
+        
+}
+#splash{
+        background-size: cover;
+        background: url(images2/poseidon-3.jpg) no-repeat center top fixed;
+        height: 1000px;
+}
+.container {
+  width: 1000px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+#navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+/* horizontal menu bars are typically created using a styled unordered list. Here's how! */
+ul#menu {
+	list-style: none; /* eliminates bullets */
+	/* adjust padding top to adjust nav bar vertical position */
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; /* changes list from vertical to horizontal */
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	/* this padding defines the size of the buttons */
+	padding: 20px 70px 20px 70px; 
+}
+/* change button color when mouse hovers over */
+ul#menu li a.button:hover {
+	background-color: rgba(42, 188, 238, 0.1);
+}  

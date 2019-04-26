@@ -16,11 +16,11 @@ ul#menu {
 } 
 ul#menu li {
 	float: left; /* changes list from vertical to horizontal */
-	margin-left: 10px; /* controls space between buttons/tabs */
+	margin-left: -80px; /* controls space between buttons/tabs */
 } 
 ul#menu li a.button {
-	background-color:#92FFFE; /* button/tab color */
-	color: #000; /* font color */
+	background-color: #fcf3ae; /* button/tab color */
+	color: #9b9744; /* font color */
 	font-size: 1em;
 	text-decoration: none; /* removes the link underline */
 	/* the padding define the size of the buttons */
@@ -39,15 +39,15 @@ ul#menu li a.button.selected{
 }
 /* visited link font colors */
 ul#menu li a.button:visited {
-	color: #000;
+	color: #9b9744;
 }  
 ul#menu li a.button:visited.selected{
 	color: #000;
 } 
 /* hover link styles */
 ul#menu li a.button:hover {
-	background-color: #fff;
-	color: #000;
+	background-color: #9b9744;
+	color: #fcf3ae;
 } 
 /* selected button shouldn't change on hover */ 
 ul#menu li a.button:hover.selected{ 
